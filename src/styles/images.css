@@ -3,6 +3,7 @@
   background-image: url("../../public/img/PhotoCV.jpg");
   background-position: center;
 }
+
 /* Projects Photo */
 .Chifoumi {
   background-image: url("../../public/img/Chifoumi.png");
@@ -24,8 +25,9 @@
   background-image: url("../../public/img/markus-winkler-Q2J2qQsoYH8-unsplash.jpg");
   cursor: none;
 }
+
 /* Miscelaneous Activities photo */
-.lapasserelle {
+.misc1 {
   background-image: url("../../public//img/logoLaPasserelle.jpeg");
   cursor: none;
 }

@@ -94,7 +94,7 @@ const projects = [
     id: "FitClub",
     name: "FitClub",
     skills: ["HTML, CSS"],
-    url: "",
+    url: "https://fit-club-crmswav.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #project3
@@ -124,19 +124,19 @@ const projects = [
 const section4Title = "Mon Parcours";
 const miscellaneous = [
   {
-    // Add image in './styles/images.css' in #misc3
-    id: "lapasserelle",
+    // Add image in './styles/images.css' in #lapasserelle
+    id: "misc1",
     name: "La Passerelle",
     url: "https://lapasserelle.school/formations/developpement-web-et-web-mobile/",
   },
   {
-    // Add image in './styles/images.css' in #misc1
+    // Add image in './styles/images.css' in #misc2
     id: "misc2",
     name: "La 3W Academy",
     url: "https://3wa.fr/",
   },
   {
-    // Add image in './styles/images.css' in #misc2
+    // Add image in './styles/images.css' in #misc3
     id: "misc3",
     name: "Ma Formation",
     url: "https://3wa.fr/formations/formation-developpeur-informatique/concepteur-developpeur-web-2-ans-alternance/",
