@@ -9,18 +9,18 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Marcus Tritant",
 };
 const background = {
   // Options: Snow or Particle
-  type: "Snow",
+  type: "Particle",
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
-const section2title = "About Me";
+const section2title = "À propos de moi";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "Après une formation à la Passerelle, me voilà à la recherche d'une entreprise Parisienne afin de poursuivre mon alternance en tant que développeur fullstack à la 3WA !",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -47,19 +47,19 @@ const skillsBar = [
     faClass: "fab fa-sass",
   },
   {
+    name: "React js",
+    // svg: '',
+    faClass: "fab fa-react",
+  },
+  {
     name: "Node",
     // svg: '',
     faClass: "fab fa-node",
   },
   {
-    name: "Python",
+    name: "PHPMyAdmin / MongoDB ...",
     // svg: '',
-    faClass: "fab fa-python",
-  },
-  {
-    name: "Java",
-    // svg: '',
-    faClass: "fab fa-java",
+    faClass: "fas fa-database",
   },
   {
     name: "PHP",
@@ -67,9 +67,9 @@ const skillsBar = [
     faClass: "fab fa-php",
   },
   {
-    name: "Database",
+    name: "Python",
     // svg: '',
-    faClass: "fas fa-database",
+    faClass: "fab fa-python",
   },
   {
     name: "AWS",
@@ -80,94 +80,84 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = "Mes Projets";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
-    id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    id: "Chifoumi",
+    name: "Chifoumi",
+    skills: ["HTML, CSS, REACT-JS"],
+    url: "http://chifoumi-bang.herokuapp.com/",
   },
   {
     // Add image in './styles/images.css' in #project2
-    id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    id: "FitClub",
+    name: "FitClub",
+    skills: ["HTML, CSS"],
+    url: "",
   },
   {
     // Add image in './styles/images.css' in #project3
-    id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    id: "PiggyClicker",
+    name: "PiggyClicker",
+    skills: ["HTML, CSS, REACT-JS"],
+    url: "https://crmswav.github.io/PiggyClicker/",
   },
   {
     // Add image in './styles/images.css' in #project4
-    id: "project4",
-    name: "Project 4",
+    id: "APIMétéo",
+    name: "API Météo",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://api-meteo-mu.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #project5
-    id: "project5",
-    name: "Project 5",
+    id: "ToDoList",
+    name: "ToDoList",
     skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/Crmswav/ToDoList",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
-const section4Title = "Miscellaneous";
+const section4Title = "Mon Parcours";
 const miscellaneous = [
   {
+    // Add image in './styles/images.css' in #misc3
+    id: "lapasserelle",
+    name: "La Passerelle",
+    url: "https://lapasserelle.school/formations/developpement-web-et-web-mobile/",
+  },
+  {
     // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    id: "misc2",
+    name: "La 3W Academy",
+    url: "https://3wa.fr/",
   },
   {
     // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    name: "Ma Formation",
+    url: "https://3wa.fr/formations/formation-developpeur-informatique/concepteur-developpeur-web-2-ans-alternance/",
   },
 ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
-const section5Title = "Get in Touch";
+const section5Title = "Contactez-moi !";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+    "Contactez moi pour plus d'information, me proposer un projet, demander un devis, ou simplement me dire bonjour ! Retrouvez mon Github et LinkedIn ci-dessous et téléchargez mon CV ! À bientôt !",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  github: "https://github.com/CrmsWav",
+  linkedin: "https://www.linkedin.com/in/marcus-tritant/",
+  resume:
+    "https://drive.google.com/file/d/1GcJfw5E2yXwu7vQsTlOV-g8qOH3_1IAX/view?usp=sharing",
 };
 // Dont change anything here
 export {
