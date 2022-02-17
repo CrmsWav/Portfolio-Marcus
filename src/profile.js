@@ -157,7 +157,7 @@ const social = {
   github: "https://github.com/CrmsWav",
   linkedin: "https://www.linkedin.com/in/marcus-tritant/",
   resume:
-    "https://drive.google.com/file/d/1GcJfw5E2yXwu7vQsTlOV-g8qOH3_1IAX/view?usp=sharing",
+    "https://drive.google.com/file/d/11xPkFgEpfJHV2AeLODYp5BrUr3YG4xlx/view?usp=sharing",
 };
 // Dont change anything here
 export {
